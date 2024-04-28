@@ -5,7 +5,7 @@
 
 #pragma comment(lib, "wininet.lib")
 
-SodasPipeAccess::SodasPipeAccess() {
+SodasPipeAccess::DevexvsPipeAccess() {
     // Initialize domain to a default value or leave it empty
     domain = "example.com";
 }
