@@ -10,9 +10,12 @@ private:
     static size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::string *output);
 
 public:
-    SodasPipeAccess();
-    std::string getHTML();
-    void setDomain(const std::string& /*your domain here*/);
-};
+    SodasPipeAccess::DevexvsPipeAccess() {
+    domain = "example.com";
+}
+
+void DevexvsPipeAccess::setDomain(const std::string& domain) {
+    this->domain = domain;
+}
 
 #endif
